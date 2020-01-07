@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head><title>KEYCARE ONLINE HOSPITAL</title></head>
+<!--CSS FORM CODE-->
+	<style> 
+		input[type=text],
+		input[type=password] {
+		width:100%;
+		padding: 12px 20px;
+		margin:8px 0;
+		box-sizing: border-box;
+		display: inline-block;
+		border: 2px solid-box;
+		box-sizing: border-box;
+	}
+	button{ 
+		background-color:green;
+		color: white;
+		padding:15px 20px;
+		margin:8px 0px;
+		cursor: pointer;
+		width: 100%;
+	}
+
+		.cancelbtn,
+		.signupbtn{
+			float: left;
+			width:50%;
+		}
+		.container{
+			padding: 16px;
+			
+		}
+			.clearfix::after{
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+		@media screen and (max-width:; 300px){ 
+		.cancelbtn,
+		.signupbtn{
+			width:100%;
+		}
+	}
+</style>
+
+	<body>
+		<h2>Sign Up Form</h2>
+		<form action="/action_page.php" style="border:1px solid #accc">
+		<div class="container">
+			<label><b>Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required>
+
+			<label><b>password</b></label>
+			<input type="password" placeholder="enter password" name="psw" required>
+
+			<label><b>repeat password</b></label>
+			<input type="password" placeholder="repeat password" name="pwd-repeat" required>
+			<input type="checkbox" checked="checked"> Remember me
+			<p>To create an account you have to agree to our <a href="#"> Terms & Privacy</a>.
+			</p>
+
+			<label><b>write your message here:</b></label>
+			<input type="text" placeholder="Tell us anything. We are here to help". name="msg" required> </div>
+
+			<div class="clearifiX">
+				<button type="button" class="cancel">Cancel</button>
+				<button type="submit" class="signup">sign up</botton> 
+				</div>
+			</div>
+		</form>
+	</body>
